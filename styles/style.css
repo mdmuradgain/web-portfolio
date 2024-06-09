@@ -80,11 +80,30 @@ nav a {
   margin-bottom: 20px;
 }
 /* Main Section Start */
-
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* About Section Start */
 .about{
   background-color: #FFF8F3;
   padding: 130px;
   border-radius: 10px;
   margin: 130px 0 ;
+}
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+}
+.about_info{
+  text-align: center;
+}
+.info_tittle{
+  color: #757575;
+}
+.info_description{
+  color: #474747;
+}
+#What_I_do{
+  margin: 30px 130px;
 }
